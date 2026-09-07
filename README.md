@@ -10,11 +10,37 @@ This project focuses on building a restaurant system using C++ classes and inher
 
 The main.cpp file creates restaurant objects and tests their functionality, including displaying restaurant information, describing cuisines, adding menu items, and displaying menus.
 
-✨ Features 🍴 Restaurant inheritance hierarchy 🇯🇵 Japanese restaurant class 🇲🇽 Mexican restaurant class 🌮 Mexican-Japanese fusion restaurant 🍱 Menu item management 💰 Menu items with prices 🪑 Japanese restaurant tatami seating option 📋 Restaurant information and menu display 🧩 Demonstration of object-oriented programming 🗂️ Project Files . ├── main.cpp ├── JapaneseRestaurant.cpp ├── JapaneseRestaurant.hpp ├── MexicanRestaurant.cpp ├── MexicanRestaurant.hpp ├── MexicanJapaneseFusion.cpp ├── MexicanJapaneseFusion.hpp ├── Restaurant.cpp ├── Restaurant.hpp └── README.md
+✨ Features
+
+🍴 Restaurant inheritance hierarchy
+🇯🇵 Japanese restaurant class
+🇲🇽 Mexican restaurant class
+🌮 Mexican-Japanese fusion restaurant
+🍱 Menu item management
+💰 Menu items with prices
+🪑 Japanese restaurant tatami seating option
+📋 Restaurant information and menu display
+🧩 Demonstration of object-oriented programming
+
+🗂️ Project Files
+
+.
+├── main.cpp
+├── JapaneseRestaurant.cpp
+├── JapaneseRestaurant.hpp
+├── MexicanRestaurant.cpp
+├── MexicanRestaurant.hpp
+├── MexicanJapaneseFusion.cpp
+├── MexicanJapaneseFusion.hpp
+├── Restaurant.cpp
+├── Restaurant.hpp
+└── README.md
 
 The file structure above includes the project files used by the different restaurant classes.
 
-🧬 Restaurant Types 🇯🇵 Japanese Restaurant
+🧬 Restaurant Types
+
+🇯🇵 Japanese Restaurant
 
 The Japanese restaurant supports a tatami seating option.
 
@@ -26,7 +52,12 @@ The program creates menu items with names and prices and adds them to different 
 
 Example menu items used in the project include:
 
-Tacos — $8.99 Enchiladas — $12.99 Sushi Tacos — $15.99 Wasabi Guacamole — $7.99 Sushi Roll — $14.99 Ramen — $11.99
+- Tacos — $8.99
+- Enchiladas — $12.99
+- Sushi Tacos — $15.99
+- Wasabi Guacamole — $7.99
+- Sushi Roll — $14.99
+- Ramen — $11.99
 
 These items are then displayed through the restaurants' menu systems.
 
@@ -36,22 +67,25 @@ The main.cpp file creates instances of the different restaurant classes and test
 
 It tests:
 
-Creating restaurant objects Displaying restaurant information Describing restaurant cuisines Displaying fusion specialties Creating menu items Adding menu items to restaurants Displaying restaurant menus 🛠️ Technologies C++ Object-Oriented Programming Classes Inheritance Header (.hpp) and source (.cpp) files ▶️ How to Run Compile
+- Creating restaurant objects
+- Displaying restaurant information
+- Describing restaurant cuisines
+- Displaying fusion specialties
+- Creating menu items
+- Adding menu items to restaurants
+- Displaying restaurant menus
 
-Using g++:
+🛠️ Technologies
 
-g++ *.cpp -o restaurant Run
+- C++
+- Object-Oriented Programming
+- Classes
+- Inheritance
+- Header (.hpp) and source (.cpp) files
 
-Windows:
+▶️ How to Run
 
-restaurant.exe
+Compile using g++:
 
-Linux/macOS:
-
-./restaurant 🎯 Purpose
-
-The purpose of this project is to demonstrate how C++ object-oriented programming can be used to create a restaurant system with different types of restaurants and shared functionality.
-
-👤 Author
-
-Younes Ahmed GitHub: younoni
+```bash
+g++ *.cpp -o restaurant
